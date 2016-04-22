@@ -1,0 +1,15 @@
+<?XML version="1.0"?>
+<scriptlet>
+<registration 
+    progid="Empire"
+    classid="{D000BEEF-0010-0100-1000-3000DEEDBCDC}" >
+	<!-- Test For PowerShell execution @subTee -->
+	<script language="JScript">
+		<![CDATA[
+	
+			var r = new ActiveXObject("WScript.Shell").Run("cmd.exe /c echo hello");	
+	
+		]]>
+</script>
+</registration>
+</scriptlet>
